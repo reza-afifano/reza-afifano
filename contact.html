@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Welcome to Bestie Cafe</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/4ccc52e125.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<div class="sub-header">
+		<nav>
+			<!-- <a href="index.html"><img src="images/image-for-home/Logo bestie.png" alt="logo"></a> -->
+
+			<div class="nav-links" id="navLinks">
+				<i class="fas fa-window-close" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="blog.html">MENU</a></li>
+					<li><a href="menu.html">OUR SERVICES</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fas fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<h1>Contact Us</h1>
+	</div>
+
+	<!-- contact us -->
+
+	<div class="location">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3192.364468648234!2d174.75798031529152!3d-36.85769397993677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d47e9aa821c4b%3A0x124503781b9ff166!2sBestie%20Cafe!5e0!3m2!1sen!2snz!4v1625875510895!5m2!1sen!2snz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+	</div>
+
+	<div class="contact-us">
+		<div class="row">
+			<div class="contact-col">
+				<div>
+					<i class="fas fa-home"></i>
+					<span>179/183 Karangahape Road, Auckland CBD, Auckland 1010</span>
+				</div>
+
+				<div>
+					<i class="fas fa-phone"></i>
+					<span>021 123457 890</span>
+				</div>
+
+				<div>
+					<i class="fas fa-envelope"></i>
+					<span>afifano0302@gmail.com</span>
+				</div>
+			</div>
+
+			<div class="contact-col">
+				<form action="form-handler.php" method="post">
+					<input type="text" name="name" placeholder="Enter Your Name" required>
+
+					<input type="email" name="email" placeholder="Enter Email Address" required>
+
+					<input type="text" name="subject" placeholder="Enter your time reservation" required>
+
+					<textarea rows="8" name="message" placeholder="message"></textarea>
+
+					<button type="submit" class="hero-btn red-btn">Send me message</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<!-- footer -->
+	<footer>
+		<!-- <h4>About us</h4>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar porttitor ligula, in ornare libero mollis ac. <br>Nam semper velit lorem, in vulputate tellus vestibulum vel. </p> -->
+
+		<div class="icons">
+			<i class="fab fa-facebook"></i>
+			<i class="fab fa-instagram"></i>
+		</div>
+		<p><i class="far fa-copyright"></i> copyright from Bestie Cafe</p>
+	</footer>
+
+	<!-- java script for toggle menu -->	
+	<script>
+		
+		var navLinks = document.getElementById("navLinks");
+		function showMenu () {
+			navLinks.style.right = "0";
+		}
+
+		function hideMenu () {
+			navLinks.style.right = "-200px";
+		}
+
+	</script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

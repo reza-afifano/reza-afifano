@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Welcome to Bestie Cafe</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/4ccc52e125.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<div class="sub-header">
+		<nav>
+			<!-- <a href="index.html"><img src="images/image-for-home/Logo bestie.png" alt="logo"></a> -->
+
+			<div class="nav-links" id="navLinks">
+				<i class="fas fa-window-close" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="blog.html">MENU</a></li>
+					<li><a href="menu.html">OUR SERVICES</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fas fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<h1>Time Services</h1>
+	</div>
+
+	<!-- menu -->
+
+	<section class="course">
+		<h2>Breaktime</h2>
+		<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 3</p> -->
+
+		<div class="row">
+			<div class="course-col">
+				<h3>Breakfast</h3>
+				<p>We are open at between 7.30am or 8.00am. Our staffs are waiting customer if they would like to come here for having breakfast at anytime.</p>
+			</div>
+
+			<div class="course-col">
+				<h3>Lunch</h3>
+				<p>Midday is our favourite time to serve you a lunch. we open a big menu start 11.00 am until evening. Come and visit us to enjoy delicious menu of bestie cafe.</p>
+			</div>
+
+			<div class="course-col">
+				<h3>Dinner</h3>
+				<p>We don't likely close very early before evening. we stay here to start open dinner menu with delightful night at the city.</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- facilities -->
+
+	<section class="facilities">
+		<h2>Food Services</h2>
+		<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
+
+		<div class="row">
+			<div class="facilities-col">
+				<img src="images/image-for-menu/pic-menu-1.jpeg" alt="dessert">
+
+				<h3>Dessert</h3>
+				<p>Taste a delicious dessert of homemade Bestie cafe.</p>
+			</div>
+
+			<div class="facilities-col">
+				<img src="images/image-for-menu/pic-menu-2.jpg" alt="dishes">
+
+				<h3>Dishes</h3>
+				<p>Fill up your big lunch in here with friends and family.</p>
+			</div>
+
+			<div class="facilities-col">
+				<img src="images/image-for-menu/pic-menu-3.jpg" alt="drink">
+
+				<h3>Desserts</h3>
+				<p>Have a good talk and try out drink menu items here.</p>
+			</div>
+		</div>
+	</section>
+
+
+
+	
+
+	
+	
+
+	
+
+	<!-- footer -->
+
+	<footer>
+		<!-- <h4>About us</h4>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar porttitor ligula, in ornare libero mollis ac. <br>Nam semper velit lorem, in vulputate tellus vestibulum vel. </p> -->
+
+		<div class="icons">
+			<i class="fab fa-facebook"></i>
+			<i class="fab fa-instagram"></i>
+		</div>
+		<p><i class="far fa-copyright"></i> copyright from Bestie Cafe</p>
+	</footer>
+
+	<!-- java script for toggle menu -->	
+	<script>
+		
+		var navLinks = document.getElementById("navLinks");
+		function showMenu () {
+			navLinks.style.right = "0";
+		}
+
+		function hideMenu () {
+			navLinks.style.right = "-200px";
+		}
+
+	</script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
