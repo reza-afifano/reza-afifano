@@ -108,16 +108,9 @@ nav .fas {
 
 /*CSS for phone*/
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 700px) {
 	.text-box h1 {
-		font-size: 20px;
-	}
-
-	.text-box p {
-		margin: 10px 0 40px;
-		font-size: 14px;
-		color: white;
-		/*break-after: none;*/
+		font-size: 16px;
 	}
 
 	.nav-links ul li {
@@ -150,6 +143,21 @@ nav .fas {
 }
 
 @media screen and (max-width: 1024px) {
+
+	.text-box h1 {
+		font-size: 30px;
+		margin-top: 5rem;
+	}
+
+	header {
+	min-height: 55vh;
+	width: 100%;
+	background-image: url(images/image-for-home/pic-home.png);
+	/*filter: brightness(50%);*/
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	}
 	
 
 	.nav-links {
